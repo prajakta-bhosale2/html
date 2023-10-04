@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    image: 'prajaktaa2/my-nginx-website:latest'
+    ports:
+      - "3000:9000"
